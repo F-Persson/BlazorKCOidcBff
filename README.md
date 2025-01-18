@@ -21,10 +21,7 @@ Tried to stay as close to the original as possible, but there are some changes.
 ## Quick Start
 
 1. Configure Keycloak:
-   - Create a new realm
-   - Add a client for the web app (public client)
-   - Add a client for the API (bearer-only)
-   - Configure client scopes and role mappers
+   - See links in References and Credits
 
 2. Update Configuration in appsettings.json of the server project.
 
