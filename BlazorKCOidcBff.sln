@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorKCOidcBff.AppHost", "Aspire\BlazorKCOidcBff.AppHost\BlazorKCOidcBff.AppHost.csproj", "{815C23E9-42C1-499B-921A-F1E7F9BC38A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorKCOidcBff.ServiceDefaults", "Aspire\BlazorKCOidcBff.ServiceDefaults\BlazorKCOidcBff.ServiceDefaults.csproj", "{3AD3F9C9-B90B-1F5D-FCD0-C05849EC283B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Aspire", "Aspire", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Features", "Features", "{B2D9E889-130A-4746-8FC9-ADEB45562AC7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorKCOidcBff.WeatherApi", "Features\BlazorKCOidcBff.WeatherApi\BlazorKCOidcBff.WeatherApi.csproj", "{886551FB-0D27-6BFE-4F0B-6517356298D9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{373E9E49-B13B-4E2E-8841-2DEE5C73EC60}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorKCOidcBff.Server", "Web\BlazorKCOidcBff.Server\BlazorKCOidcBff.Server.csproj", "{2968F81E-F219-1C90-3FD4-EA99EFC21DC4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorKCOidcBff.Client", "Web\BlazorKCOidcBff.Client\BlazorKCOidcBff.Client.csproj", "{D895C466-5B45-8C82-552F-902080F2E658}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{815C23E9-42C1-499B-921A-F1E7F9BC38A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{815C23E9-42C1-499B-921A-F1E7F9BC38A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{815C23E9-42C1-499B-921A-F1E7F9BC38A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{815C23E9-42C1-499B-921A-F1E7F9BC38A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3AD3F9C9-B90B-1F5D-FCD0-C05849EC283B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AD3F9C9-B90B-1F5D-FCD0-C05849EC283B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AD3F9C9-B90B-1F5D-FCD0-C05849EC283B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AD3F9C9-B90B-1F5D-FCD0-C05849EC283B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{886551FB-0D27-6BFE-4F0B-6517356298D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{886551FB-0D27-6BFE-4F0B-6517356298D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{886551FB-0D27-6BFE-4F0B-6517356298D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{886551FB-0D27-6BFE-4F0B-6517356298D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2968F81E-F219-1C90-3FD4-EA99EFC21DC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2968F81E-F219-1C90-3FD4-EA99EFC21DC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2968F81E-F219-1C90-3FD4-EA99EFC21DC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2968F81E-F219-1C90-3FD4-EA99EFC21DC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D895C466-5B45-8C82-552F-902080F2E658}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D895C466-5B45-8C82-552F-902080F2E658}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D895C466-5B45-8C82-552F-902080F2E658}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D895C466-5B45-8C82-552F-902080F2E658}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{815C23E9-42C1-499B-921A-F1E7F9BC38A8} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{3AD3F9C9-B90B-1F5D-FCD0-C05849EC283B} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{886551FB-0D27-6BFE-4F0B-6517356298D9} = {B2D9E889-130A-4746-8FC9-ADEB45562AC7}
+		{2968F81E-F219-1C90-3FD4-EA99EFC21DC4} = {373E9E49-B13B-4E2E-8841-2DEE5C73EC60}
+		{D895C466-5B45-8C82-552F-902080F2E658} = {373E9E49-B13B-4E2E-8841-2DEE5C73EC60}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {744055B2-8287-4F32-904E-FAEA32FA3E50}
+	EndGlobalSection
+EndGlobal
